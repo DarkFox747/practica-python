@@ -2,7 +2,7 @@ import random
 def text (lst):
     madlib= f"Si te postran diez veces, te {lst[0]} otras diez, otras cien, otras quinientas: no han de ser tus caídas tan {lst[1]} ni tampoco, por ley, han de ser tantas. Con el hambre genial con que las plantas asimilan el humus avarientas, deglutiendo el rencor de las {lst[2]} se formaron los santos y las santas. Obsesión casi asnal, para ser fuerte, nada más {lst[3]} la criatura, y en cualquier infeliz se me figura que se {lst[4]} los garfios de la suerte... ¡Todos los incurables tienen cura cinco segundos antes de su {lst[5]}!"
     print(madlib)
-def Tinicio():
+def tInicio():
     print("Bienvenido al juego de Madlibs")
     print("El texto es Avanti una poesia de Alma Fuerte")        
 def reemplazar():
@@ -34,7 +34,7 @@ def reemplazar():
     print("GANASTE MASTER!!!")            
 
 def main():
-    Tinicio()
+    tInicio()
     reemplazar()
     while input("Queres jugar de nuevo? (Y/N)").upper() == "Y":
         reemplazar()
